@@ -1,0 +1,68 @@
+// COLORS
+$color-primary-100: #807fe2;
+$color-primary-300: #6463ce;
+$color-primary-800: #4947bd;
+$color-primary: #38369A;
+$color-primary-1050: #33318f;
+$color-primary-1100: #2d2b7a;
+$color-primary-1500: #1a1949;
+$color-text-fancy: #f4b43f;
+$color-secondary: #f49097;
+
+$color-accent: #c39ad6;
+$color-error: #d3434d;
+
+$color-white-500: #F9F0F6;
+$color-white-800: #f7ebf3;
+$color-white-1100: #ffffff;
+$color-white: #F9F0F6;
+$color-break: rgba(255, 255, 255, 0.349);
+$color-black: #19323c;
+
+$color-skeleton: rgb(220, 220, 220);
+$color-skeleton-light: rgb(230, 230, 230);
+
+// SPACING
+$margin-body: 0;
+$padding-body: clamp(1rem, 1.5vw, 60px);
+$border-radius: clamp(0.3rem, 0.5vw, 10px);
+$global-spacing: 0.5rem;
+
+// BUTTON
+$button-width: 9rem;
+$button-height: 2.8rem;
+
+$button-width-active: 8rem;
+$button-height-active: 2.6rem;
+
+// BANNER
+$banner-aspect: 2.7;
+$banner-aspect-mobile: 0.9;
+$banner-control-button-size: clamp(0.8rem, 0.8vw, 20px);
+
+// NAVBAR
+$navbar-message-padding: clamp(5px, 1vh, 10px);
+$navbar-logo-width: clamp(250px, 25vw, 45rem);
+$navbar-ham-height: 0.2rem;
+$navbar-ham-width: 1.5rem;
+$navbar-ham-delta: 0.5rem;
+$navbar-ham-gap: 0.3rem;
+$navbar-ham-angle: 45deg;
+
+// MEDIA QUERY
+$media-mobile: 450px;
+$media-tablet: 750px;
+$media-laptop: 1200px;
+$media-desktop: 1400px;
+
+// SIZES
+$text-size-xs: clamp(13px, 1vw, 0.8rem);
+$text-size-s: clamp(14px, 1.2vw, 1.4rem);
+$text-size-m: clamp(20px, 2vw, 1.5rem);
+$text-size-l: clamp(25px, 2.5vw, 2rem);
+$text-size-xl: clamp(30px, 3vw, 3rem);
+
+$box-shadow: 0 0 2.5px rgb(0 0 0 / 0.3);
+
+// ANIMATIONS
+$global-transition: 0.2s ease-in-out;
