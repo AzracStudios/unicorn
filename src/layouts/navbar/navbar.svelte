@@ -7,6 +7,7 @@
 	import Navlinks from './navlinks.svelte';
 	import Hammenu from './hammenu.svelte';
 	import type { NavItem } from '../types.js';
+	import Text from '../../components/text/text.svelte';
 
 	export let links: NavItem[];
 	$: links;
